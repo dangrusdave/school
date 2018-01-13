@@ -3,6 +3,7 @@
 https://github.com/dangrusdave/school
 
 2. A link to your Github Pages site.
+https://github.com/dangrusdave/school/blob/master/README.md
 
 
 3. A one or two sentence answer to each of the following questions (pretend you’re interviewing for a job in my company)

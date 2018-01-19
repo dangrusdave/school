@@ -1,13 +1,13 @@
 # First Assignment
 <h2>A link to your public class Github Repository</h2>
-<a href="https://dangrusdave.github.io/school">My Github Repository</a>
+<a href="https://dangrusdave.github.io/">My Github Repository</a>
 
 <h2>A link to your Github Pages site.</h2>
-<a href="https://dangrusdave.github.io/school/blob/master/README.md">My Github Pages Site</a>
+<a href="https://dangrusdave.github.io/school/">My Github Pages Site</a>
 
 <h2>What experience do you have building websites?</h2>
 
-In the past I have built basic websites with MS Publisher, Macromedia Dreamweaver, Notebook++, Eclipse, and Textwrangler software.  The topics for these sites have been either assigned in courses or were built to showcase my interests in flight and the Navy.
+In the past I have built basic websites with MS Publisher, Macromedia Dreamweaver, Notebook++, Netbeans, Eclipse, and Textwrangler software.  The topics for these sites have been either assigned in courses or were built to showcase my interests in flight and the Navy.
 
 <h2>What software experience do you currently have?</h2>
 

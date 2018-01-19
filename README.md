@@ -1,9 +1,9 @@
 # First Assignment
 <h2>A link to your public class Github Repository</h2>
-<a href="https://github.com/dangrusdave/school">My Github Repository</a>
+<a href="https://dangrusdave.github.io./school">My Github Repository</a>
 
 <h2>A link to your Github Pages site.</h2>
-<a href="https://github.com/dangrusdave/school/blob/master/README.md">My Github Pages Site</a>
+<a href="https://dangrusdave.github.io./school/blob/master/README.md">My Github Pages Site</a>
 
 <h2>What experience do you have building websites?</h2>
 

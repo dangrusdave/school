@@ -1,6 +1,6 @@
 # First Assignment
 <h2>A link to your public class Github Repository</h2>
-<a href="https://dangrusdave.github.io/">My Github Repository</a>
+<a href="dangrusdave.github.io">My Github Repository</a>
 
 <h2>A link to your Github Pages site.</h2>
 <a href="https://dangrusdave.github.io/school/">My Github Pages Site</a>

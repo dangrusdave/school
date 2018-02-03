@@ -40,7 +40,6 @@
     color: gray;
 }
 
-
 body { 
 	background-color:hsl(54, 13%, 45%);
 	font-family: Arial,Helvetica,sans-serif;
@@ -50,13 +49,13 @@ hr {
 margin-left: auto;
 margin-right: auto;
 height: 10px;
-padding-top:20px,0,10px,0;
+padding:20px 0 10px 0;
 background-color:hsl(67, 66%, 13%);
 color:black;
 }
 
 footer {
-	padding:20px 0px 10px 0px;
+	padding:20px 0 10px 0;
 	background-color:white;
     height:200px;
     text-decoration:none;
@@ -65,7 +64,6 @@ footer {
 .lowernav ul {
     text-decoration:none;
     font-style: italic;
-
 }
 
 .lowernav li{
@@ -88,45 +86,42 @@ footer {
 	color:black;
 	}
 
-
 p { 
-	margin-top:0px 0px 12px 0px;
+	margin:0 0 12px 0;
 }
 
 h1 { 
 	font-size: 2.5em; 
-	font-weight: strong; 
+	font-weight: bold; 
 	color: #fffdfd;
-	margin: 0px,0px,16px,0px;
+	margin: 0 0 16px 0;
 } 
 
 h4 { 
 	font-size: 1.25em; 
-	font-weight: strong; 
+	font-weight: bold; 
 	color: #fffdfd; 
     display: block;
-    margin:5px,0px,0px,0px;
+    margin:5px 0 0 0;
 }
 
 h5 { 
     font-family: 'Alice', serif;
     font-size: .8em; 
-	font-weight: strong; 
+	font-weight: bold; 
 	color: #fffdfd; 
     display: block;
-    margin:0px,0px,5px,0px;
+    margin:0 0 5px 0;
 }
-
-
 
 .trademark{
     padding-top: 10px;
     float:right;
 }
+
 .logo{
     padding-top:10px;
     }
-
 
 img {
     display: block;

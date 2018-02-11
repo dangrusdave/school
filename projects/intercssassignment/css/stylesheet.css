@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Alice');
+
+html {
+    font-size:62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.box1 {
+  display: inline-block;
+  width: 100%;
+  height: 10vh;
+  background: rgb(12, 7, 0);
+  padding: 20px;
+  background-image: url(http://planetoftheweb.com/i/vancouver.jpg);
+}
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+}
+
+.topnav li {
+    display: inline;
+}
+
+.topnav {
+    background-color:#7C7358;
+    overflow: hidden;
+    }
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 20px;
+    }
+
+.topnav a:hover {
+    background-color:#FF9E06;
+    color: #FF9E06;
+}
+
+.topnav a:active {
+    background-color: white;
+    color: green;
+}
+
+.topnav a:visited {
+    background-color: black;
+    color: gray;
+}
+
+body { 
+	background-color:hsl(54, 13%, 45%);
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 2rem;
+}
+
+p { 
+	margin:0 0 12px 0;
+}
+h1 { 
+	font-size: 2.5rem; 
+	font-weight: bold; 
+	color: #fffdfd;
+	margin: 0 0 16px 0;
+} 
+
+h4 { 
+	font-size: 1.25rem; 
+	font-weight: bold; 
+	color: #fffdfd; 
+    display: block;
+    margin:5px 0 0 0;
+}
+
+h5 { 
+    font-family: 'Alice', serif;
+    font-size: .8rem; 
+	font-weight: bold; 
+	color: #fffdfd; 
+    display: block;
+    margin:0 0 5px 0;
+}
+.gallery{
+    display:inline-block;
+    border:black;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+margin-left: auto;
+margin-right: auto;
+height: 10px;
+padding:20px 0 10px 0;
+background-color:hsl(67, 66%, 13%);
+color:black;
+}
+
+footer {
+	padding:20px 0 10px 0;
+	background-color:white;
+    height:230px;
+    text-decoration:none;
+
+	}
+
+.lowernav ul {
+    text-decoration:none;
+    font-style: italic;
+    font-size:1rem;
+}
+
+.lowernav li{
+    color: tan; 
+}
+
+.lowernav a { 
+    color:green; 
+    }
+
+.lowernav a:hover { 
+	color: red; 
+    }
+    
+.lowernav a:active { 
+	color: brown; 
+    }
+
+.lowernav a:visited { 
+	color:black;
+	}
+.box2 {
+  display: inline-block;
+  width: 50%;
+  height: 10vh;
+  background: white;
+  padding: 20px;
+}
+.box3 {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 10vh;
+  background: #32370B;
+  padding: 20px;
+}
+
+
+
+
+
+
+.logo{
+    padding:20px auto;
+    }
+
+.social_media{
+    font-size: 3.5rem; 
+    color: #410a0a; 
+    }
+
+.trademark{
+    padding-top:20px;
+    float:right;
+}
+
+
+
+

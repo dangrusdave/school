@@ -90,8 +90,8 @@ h5 {
     margin:0 0 5px 0;
 }
 .gallery{
-    display:inline-block;
-    border:black;
+    float: left;;
+    border:gray solid 10px;
     border-radius: 5px;
 }
 

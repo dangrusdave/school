@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Alice');
+
+html {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 0;
+    width:100%;
+    font-size:62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  body {
+    background: rgb(177, 97, 23);
+  }
+}
+
+@media print {
+  body {
+    background: white;
+  }
+}
+
+.banner {
+   display:flex;
+        flex-flow: row;
+        justify-content: center;
+        flex-grow:1;
+  width: 100%;
+  height: 25vh;
+  background: rgb(12, 7, 0);
+  padding: 20px;
+  background-image: url(https://dangrusdave.github.io/school/projects/intercssassignment/images/largesized/largesized-370.jpg);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10rem;
+  color:blue;
+  text-shadow: 5px 5px white;
+  vertical-align: middle;
+}
+
+.topnavbox{
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        flex-grow:1;
+        width: 80%;
+        height: 10vh;
+        background-color:#6E815F;
+        padding-top: 20px;
+    }
+
+.topnav{        
+        display:flex;
+        flex-flow: row;
+        justify-content: space-between;
+        flex-grow:0;
+        width: 80%;
+        background-color:#6E815F;
+        font-weight: bold;
+        font-size: 2.5rem;
+        text-decoration: none;
+        }
+
+.item{
+   background-color: #6E815F;
+    color:orangered;  
+    text-decoration:none;
+    width:20%;
+}
+
+
+.item a {
+    color: #f2f2f2;
+    text-decoration: none;
+    }
+
+.item a:hover {
+    background-color:#FF9E06;
+    color: black;
+    text-decoration: none;
+}
+
+.item a:active {
+    background-color: white;
+    color: green;
+    text-decoration: none;
+}
+
+.item a:visited {
+    background-color: black;
+    color: tan;
+    text-decoration: none;
+}
+
+body { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow:1;
+    width:100%;
+	background-color:hsl(54, 13%, 45%);
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 2rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow:1;
+    width:100%;
+
+}
+
+p { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin:12px 0 12px 0;
+    width:90%;
+}
+h1 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow:1;
+    width:100%;
+	font-size: 2.5rem; 
+	font-weight: bold; 
+	color: #fffdfd;
+	margin: 0 0 16px 0;
+} 
+h3 { 
+    display: flex;
+    flex-direction: row;
+    flex-grow:1;
+    justify-content: space-around;
+    width:100%;
+	font-size: 1.8rem; 
+	font-weight: bold; 
+	color: #1f1d1d;
+	margin: 0 0 16px 0;
+} 
+
+
+h4 { 
+    display: flex;
+    flex-direction: row;
+    flex-grow:1;
+    justify-content: space-around;
+    font-size: 1.25rem; 
+    width:100%;
+	font-weight: bold; 
+	color: #fffdfd; 
+    display: block;
+    margin:12px 0;
+}
+
+h5 { 
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    width:100%;
+    font-family: 'Alice', serif;
+    font-size: .8rem; 
+	font-weight: bold; 
+	color: #fffdfd; 
+    display: block;
+    margin:5px 0;
+}
+
+h6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem; 
+	font-weight: bold; 
+	color: black; 
+    display: block;
+    margin: 5px 0 10px 0;
+}
+
+.gallerybox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80%;
+    justify-content: center;
+    padding:10px 10px;
+    border:white solid 10px;
+    border-radius: 5px;
+    background-color: white;
+    background: radial-gradient(rgba(250, 235, 215, 0.685), #083a0c);
+}
+
+.gallery img {
+     display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    flex-grow:1;
+    height:200px;
+    width:300px;
+    border:rgb(177, 169, 145) groove 10px;
+    box-shadow: black 0 5px 5px 0;
+}
+
+.imgbox{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:80%;
+}
+
+img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:30%;
+    
+}
+
+hr {
+     display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    justify-content: space-around;
+    width:95%;
+    height: 8px;
+    background-color:#6E815F;
+    color:black;
+}
+
+.footerbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    flex-grow: 0;
+    width:98%;
+    height:14vh;
+	background-color:#6E815F;
+}
+
+
+footer {
+     display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    flex-grow: 0;
+	background-color:white;
+    text-decoration:none;
+    width:98%;
+    height:12vh;
+
+	}
+
+.lowernav {
+    display: flex;
+    flex-direction: column;
+    width:15%;
+}
+
+
+.lowernav ul {
+    text-decoration:none;
+    font-style: italic;
+    font-size:1.4rem;
+}
+
+.lowernav li{
+    color: tan; 
+}
+
+.lowernav a { 
+    color:green; 
+    }
+
+.lowernav a:hover { 
+	color: red; 
+    }
+    
+.lowernav a:active { 
+	color: brown; 
+    }
+
+.lowernav a:visited { 
+	color:black;
+	}
+.socialbox {
+   display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:nowrap;
+  width: 85%;
+  background: white;
+}
+
+.social_media{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    font-size:3.5rem; 
+    color:#6E815F; 
+    }
+
+.tradebox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    flex-grow: 0;
+    width:98%;
+    background-color:#6E815F;
+}
+
+.trademark{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow:1;
+    justify-content: space-around;
+    color:white; 
+    width:95%;
+}
+
+
+
+

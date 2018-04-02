@@ -1,0 +1,81 @@
+Film Camera
+
+https://fontawesome.com/icons/camera?style=solid
+
+Video Camera
+
+https://fontawesome.com/icons/video?style=solid
+
+Image
+
+https://fontawesome.com/icons/image?style=solid
+
+Images
+
+https://fontawesome.com/icons/images?style=solid
+
+Globe
+https://fontawesome.com/icons/globe?style=solid
+
+Code
+https://fontawesome.com/icons/code?style=solid
+
+File Code
+https://fontawesome.com/icons/file-code?style=solid
+
+Paw
+https://fontawesome.com/icons/paw?style=solid
+
+Phone-square
+https://fontawesome.com/icons/phone-square?style=solid
+
+Fighter-jet
+https://fontawesome.com/icons/fighter-jet?style=solid
+
+Address Card
+https://fontawesome.com/icons/address-card?style=solid
+
+Leaf
+https://fontawesome.com/icons/leaf?style=solid
+
+Suitcase
+https://fontawesome.com/icons/suitcase?style=solid
+
+Plane
+https://fontawesome.com/icons/plane?style=solid
+
+Crosshairs
+https://fontawesome.com/icons/crosshairs?style=solid
+
+Moon
+https://fontawesome.com/icons/moon?style=solid
+
+Mobile Phone
+https://fontawesome.com/icons/mobile-alt?style=solid
+
+Water Drop
+https://fontawesome.com/icons/tint?style=solid
+
+Anchor
+https://fontawesome.com/icons/anchor?style=solid
+
+Home
+https://fontawesome.com/icons/home?style=solid
+
+Star
+https://fontawesome.com/icons/star?style=solid
+
+Info
+https://fontawesome.com/icons/info?style=solid
+
+
+max carousel width 1500 height 998 px
+
+
+
+
+
+
+
+
+

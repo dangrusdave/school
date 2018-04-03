@@ -24,9 +24,15 @@
   font-weight: 100;
 }
 
+.jumbotron-image {
+  url:(../images/largesized/largesized-8.png);
+  width: 100;
+  
+}
+
 .site-header {
-  background: linear-gradient(rgba(0, 0, 0, .50) 50px, transparent),
-  url(https://dummyimage.com/16:9x400/6.png&text=+);
+  background: linear-gradient#FD8204 50px, transparent),
+  url(../images/largesized/largesized-8.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,7 +41,7 @@
 
 @media screen and (max-width: 768px) {
   .site-header .navbar-collapse {
-    background-color: rgba(0,0,0,.5);
+    background-color: #FD8204;
     padding:10px;
     transition: all .5s ease-out;
   }
@@ -43,16 +49,20 @@
 
 .site-header .site-nav {
   transition: all .5s ease-out;
-  background: rgba(0,0,0,0);
+  background: #FD8204;
 }
 
 .site-header .inbody {
-  background: rgba(56, 56, 56, 0.9);
+  background: #FD8204;
 }
 
 .site-header .jumbotron {
   min-height: 50vh;
-  background: transparent;
+  background: #FD8204;
+}
+.site-header .normal {
+  min-height:10vh;
+  background:#FD8204;
 }
 
 .site-header .animated {
@@ -73,7 +83,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #AAA;
+  background-color: antiquewhite;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -136,7 +146,7 @@
 
 #layout-carousel .fade .carousel-item {
   background: linear-gradient(rgba(0, 0, 0, .50) 50px, transparent),
-  url(https://dummyimage.com/16:9x400/6.png&text=+);
+  url(https://dummyimage.com/16:9x200/6.png&text=+);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,9 +169,15 @@
   opacity: 0;
 }
 
-#layout-carousel .fade .carousel-control-prev,
+#layout-carousel .fade .carousel-control-prev {
+  opacity: 0;
+}
 #layout-carousel .fade .carousel-control-next {
   opacity: 0;
+}
+.carouselImage{
+  width:25%;
+  height:25%;
 }
 
 @media screen and (min-width: 992px) {
@@ -185,7 +201,9 @@
 }
 
 .footer {
-  background: #2D8BCF;
+  background-color: #FD8204;
+  color: antiquewhite;
+  text-decoration: none;
 }
 
 .footer a {
@@ -194,10 +212,11 @@
 
 
 .footer a:first-of-type:hover {
-  color: green;
+  color:#FD8204;
 }
 
-.footer p::first-letter {
-  color: #8AC8E1;
-  font-size: 200%;
+.footer p {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 0.25rem;
 }

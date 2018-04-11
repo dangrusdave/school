@@ -16,7 +16,7 @@
           aria-label="Toggle Navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand text-uppercase font-weight-light" href="#layout-hero">
+        <a class="navbar-brand text-uppercase font-weight-light" href="../html/index.html">
           <i class="fas fa-camera mr-2"></i> Spotted Dog Productions of Florida</a>
         <div class="collapse navbar-collapse" id="myTogglerNav">
           <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
@@ -50,32 +50,64 @@
   <img class="img-fluid" src="../images/logo/sdpflcamlogo.png" alt="Company Logo Three Dalmatian Heads on an Orange on Lens of a Camera">
 </figure>
 <!--Company Logo Image Container End-->
-<article id="layout-media" class="section vertical-padding">
-  <section class="container my-5">
-    <div class="row justify-content-md-center">
-      <div class="col-lg-8 invisible">
-        <section class="media mb-4">
-          <img class="align-self-center mr-3 img-fluid rounded" src="https://fontawesome.com/icons/phone-square?style=solid" alt="Phone Icon">
-          <div class="media-body">
-            <h4 class="font-weight-normal">Phone</h4>
-            <p>Our phone number is (321) 289-8644. We answer during our normal business hours of 9:30AM to 4:30PM EST.</p>
-          </div>
-        </section>
-        <section class="media mb-4">
-          <img class="align-self-center mr-3 img-fluid rounded" src="https://fontawesome.com/icons/address-card?style=solid" alt="Address Card Icon">
-          <div class="media-body">
-            <h4 class="font-weight-normal">e-Mail</h4>
-            <p>After our normal hours, you can e-mail us at: <a href="mailto:SpottedDogProductionsFL@Gmail.com">SpottedDogProductionsFL@Gmail.com</a></p>
-          </div>
-        </section>
+<div class="container-fluid" style="text-align: center" my30>
+  <h3>Location:</h3>
+  <h4>222 Osprey Lakes Circle</h4>
+  <h4>Chuluota, FL 32766-6664</h4>
+</div>
+<div class="container-fluid" style="text-align: center" my30>
+  <h3>Phone:</h3>
+  <h4>(321)-289-8644</h4>
+</div>
+<div class="container-fluid" style="text-align: center" my30>
+  <h3>e-Mail:</h3>
+  <h4>SpottedDogProductionsFL@gmail.com</h4>
+</div>
+<!--Interactive Contact Form Start-->
+<article>
+<div class="contact" id="contact">
+  <div class="container-fluid" style="text-align: center" pt60 my30>
+      <h3>
+        <i class="fa fa-paw"></i>
+         Send Us A Message
+      </h3>
       </div>
-      <!-- col -->
+      <div id="map-canvas"></div>
     </div>
-    <!-- row -->
-  </section>
-  <!-- container -->
+    <form method="post" action="contact.php" name="contactform" id="contactform">
+      <div class="container-fluid" style="text-align: center">
+        <fieldset>
+          <div class="container-fluid" style="text-align: center">
+          <input name="name" type="text" id="name" size="50" placeholder="Name" py15>
+          </div>
+          <input name="email" type="text" id="email" size="50" placeholder="Email" py15>
+          <div class="container-fluid" style="text-align: center">
+          <input name="phone" type="text" id="phone" size="50" placeholder="Phone" py15>
+          </div>
+          <div class="container-fluid" style="text-align: center">
+          <input name="human" type="text" id="human" size="50" placeholder="Prove you are not a robot... What is 2+2?" py15>
+          </div>
+        </fieldset>
+      </div>
+      <div class="container-fluid" style="text-align: center">
+        <fieldset>
+          <textarea name="comments" cols="48" rows="20" id="comments" placeholder="Message"></textarea>
+        </fieldset>
+      </div>
+      <div class="container-fluid" style="text-align: center">
+        <fieldset>
+          <button type="submit" class="btn btn-lg" id="submit" value="Submit"><h3>Send
+            <i class="fa fa-paper-plane"></i></h3>
+          </button>
+        </fieldset>
+      </div>
+    </form>
+  </div>
+</div>
 </article>
 
+
+<!--Interactive Contact Form End-->
 <!-- content container -->
 
 <footer class="footer bg-secondary">
@@ -107,7 +139,10 @@
   <script src="js/lib/jquery.min.js"></script>
   <script src="js/lib/popper.min.js"></script>
   <script src="js/lib/bootstrap.min.js"></script>
+  
 <!-- ADDITIONAL JS HERE -->
   <script src="js/script.js"></script>
+  <script src="js/lib/contactform2.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
   </body>
 </html>

@@ -16,7 +16,7 @@
           aria-label="Toggle Navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand text-uppercase font-weight-light" href="#layout-hero">
+        <a class="navbar-brand text-uppercase font-weight-light" href="../html/index.html">
           <i class="fas fa-camera mr-2"></i> Spotted Dog Productions of Florida</a>
         <div class="collapse navbar-collapse" id="myTogglerNav">
           <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
@@ -53,53 +53,59 @@
 <!--Company Logo Image Container End-->
 
 <div class=container>
-  <p>This page will provide information about Spotted Dog Productions of Florida™.</p>
-  <p>When developed, it will provide background information about our company and showcase products the company has developed
-    for our customers.</p>
+  <p>Spotted Dog Productions of Florida™ was founded by David D. Diamond in 2018.</p>
+  <p>The owner is a retired Naval Aviator who specializes in aviation and nature photography.</p>
   <p>Our complete portfolio is available on
     <a href="http://davidddiamond5277.zenfolio.com/f56290019">Zenfolio</a>.</p>
-  <p>The site owner is currently performing training and will update the site as he completes his studies.</p>
-  <p>Feel free to <a href="../html/contactcontact.html">contact</a> the owner if you have questions about the site</p>
+  <p>Feel free to
+    <a href="../html/contact.html">contact</a> us if you have questions about the site or the
+    <a href="../html/services.html">services</a> we provide.</p>
 </div>
 
-<article id="layout-carousel" class="section">
-  <div class="carousel slide" id="my-carousel" data-ride="carousel">
-    <div class="carousel-inner">
-      <ol class="carousel-indicators">
-        <li data-target="#my-carousel" data-slide-to="0"></li>
-        <li data-target="#my-carousel" data-slide-to="1" class="active"></li>
-        <li data-target="#my-carousel" data-slide-to="2"></li>
-      </ol>
+<!--Carousel Code-->
+<div id="demo" class="carousel slide" data-ride="carousel">
 
-      <div class="carousel-item">
-      <img class="d-block img-fluid carouselImage" src="../images/largesized/largesized-8.jpg" alt="Stingray">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="largesized-486.jpg" data-slide-to="0"></li>
+    <li data-target="largesized-451.jpg" data-slide-to="1" class="active"></li>
+    <li data-target="largesized-3.jpg" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img src="../images/largesized/largesized-486.jpg" alt="F/A-18 Super Hornet" width="1100" height="500">
+      <div class="carousel-caption">
+        <h1>F/A-18 Super Hornet</h1>
+        <p>Image Taken During NASA Airshow at Kennedy Space Center, Florida</p>
       </div>
-      <!-- carousel-item -->
-
-      <div class="carousel-item active">
-        <img class="d-block img-fluid carouselImage" src="../images/largesized/largesized-3.jpg" alt="Golden Gate Bridge">
-      </div>
-      <!-- carousel-item -->
-     
-      <div class="carousel-item">
-        <img class="d-block img-fluid carouselImage" src="../images/largesized/largesized-508.jpg" alt="Blue Angels">
-      </div>
-      <!-- carousel-item -->
-
-      <a class="carousel-control-prev" href="../images/largesized/largesized-8.jpg" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-      </a>
-
-      <a class="carousel-control-next" href="../images/largesized/largesized-508.jpg" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-      </a>
     </div>
-    <!-- carousel-inner -->
+    <div class="carousel-item active">
+      <img src="../images/largesized/largesized-451.jpg" alt="Tethered Kayaks" width="1100" height="500">
+      <div class="carousel-caption">
+        <h1>Tethered Kayaks</h1>
+        <p>Image taken on Cold Water Creek near Milton, Florida</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../images/largesized/largesized-3.jpg" alt="Golden Gate Bridge" width="1100" height="500">
+      <div class="carousel-caption">
+        <h1>Golden Gate Bridge</h1>
+        <p>Taken during trip to see the Oakland Raiders</p>
+      </div>
+    </div>
   </div>
-  <!-- carousel -->
-</article>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="../images/largesized/largesized-486.jpg" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="../images/largesized/largesized-3.jpg" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!--End Carousel-->
 
 <!-- content container -->
 

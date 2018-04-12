@@ -52,64 +52,119 @@
   <img class="img-fluid" src="../images/logo/sdpflcamlogo.png" alt="Company Logo Three Dalmatian Heads on an Orange on Lens of a Camera">
 </figure>
 <!--Company Logo Image Container End-->
-<div class="container-fluid" style="text-align: center" my30>
-  <h3>Location:</h3>
-  <h4>222 Osprey Lakes Circle</h4>
-  <h4>Chuluota, FL 32766-6664</h4>
-</div>
-<div class="container-fluid" style="text-align: center" my30>
-  <h3>Phone:</h3>
-  <h4>(321)-289-8644</h4>
-</div>
-<div class="container-fluid" style="text-align: center" my30>
-  <h3>e-Mail:</h3>
-  <h4>SpottedDogProductionsFL@gmail.com</h4>
-</div>
+
 <!--Interactive Contact Form Start-->
-<article>
-<div class="contact" id="contact">
-  <div class="container-fluid" style="text-align: center" pt60 my30>
-      <h3>
-        <i class="fa fa-paw"></i>
-         Send Us A Message
-      </h3>
-      </div>
-      <div id="map-canvas"></div>
-    </div>
-    <form method="post" action="contact.php" name="contactform" id="contactform">
-      <div class="container-fluid" style="text-align: center">
-        <fieldset>
-          <div class="container-fluid" style="text-align: center">
-          <input name="name" type="text" id="name" size="50" placeholder="Name" py15>
-          </div>
-          <input name="email" type="text" id="email" size="50" placeholder="Email" py15>
-          <div class="container-fluid" style="text-align: center">
-          <input name="phone" type="text" id="phone" size="50" placeholder="Phone" py15>
-          </div>
-          <div class="container-fluid" style="text-align: center">
-          <input name="human" type="text" id="human" size="50" placeholder="Prove you are not a robot... What is 2+2?" py15>
-          </div>
-        </fieldset>
-      </div>
-      <div class="container-fluid" style="text-align: center">
-        <fieldset>
-          <textarea name="comments" cols="48" rows="20" id="comments" placeholder="Message"></textarea>
-        </fieldset>
-      </div>
-      <div class="container-fluid" style="text-align: center">
-        <fieldset>
-          <button type="submit" class="btn btn-lg" id="submit" value="Submit"><h3>Send
-            <i class="fa fa-paper-plane"></i></h3>
+<!--Section: Contact-->
+<section id="contact">
+
+  <!--Grid row-->
+  <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-5 col-md-12">
+
+      <!-- Form contact -->
+      <form class="p-5">
+
+        <h3>Send Us A Message</h3>
+
+        <div class="md-form form-sm">
+          <i class="fa fa-user prefix grey-text"></i>
+          <input type="text" id="form3" class="form-control form-control-sm">
+          <label for="form3">Your name</label>
+        </div>
+
+        <div class="md-form form-sm">
+          <i class="fa fa-envelope prefix grey-text"></i>
+          <input type="text" id="form2" class="form-control form-control-sm">
+          <label for="form2">Your email</label>
+        </div>
+
+        <div class="md-form form-sm">
+          <i class="fa fa-tag prefix grey-text"></i>
+          <input type="text" id="form32" class="form-control form-control-sm">
+          <label for="form34">Subject</label>
+        </div>
+
+        <div class="md-form form-sm">
+          <i class="fa fa-info prefix grey-text"></i>
+          <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
+          <label for="form8">Your message</label>
+        </div>
+
+        <div class="text-center mt-4">
+          <button class="btn btn-primary">Send
+            <i class="fa fa-paw prefix grey-text"></i>
           </button>
-        </fieldset>
+        </div>
+      </form>
+      <!-- Form contact -->
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7 col-md-12">
+
+      <!--Grid row-->
+      <div class="row text-center">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-3">
+
+          <p>
+            <i class="fa fa-map fa-1x mr-2 grey-text"></i>Chuluota, FL 32766</p>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-3">
+
+          <p>
+            <i class="fa fa-clock fa-1x mr-2 grey-text"></i>Mon - Fri, 9:00 AM-4:00 PM (EST)</p>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-3">
+
+          <p>
+            <i class="fa fa-phone fa-1x mr-2 grey-text"></i>(321) 289-8644</p>
+
+        </div>
+        <!--Grid column-->
       </div>
-    </form>
+      <!--Grid row-->
+
+      <!--Grid row-->
+      <div class="row text-center">
+        <!--Grid column-->
+        <div class="col-lg-12 col-md-6 mb-3">
+        
+          <p>
+            <i class="fa fa-address-card fa-1x mr-2 grey-text"></i>SpottedDogProductionsFL@Gmail.com</p>
+        
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <!--Google map-->
+      <div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>
+
+    </div>
+    <!--Grid column-->
+
   </div>
-</div>
-</article>
+  <!--Grid row-->
 
-
+</section>
+<!--Section: Contact-->
 <!--Interactive Contact Form End-->
+
 <!-- content container -->
 
 <footer class="footer bg-secondary">
@@ -144,7 +199,33 @@
   
 <!-- ADDITIONAL JS HERE -->
   <script src="js/script.js"></script>
-  <script src="js/lib/contactform2.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js"></script>
-  </body>
+<!--Google Maps-->
+<script src="https://maps.google.com/maps/api/js"></script>
+
+<!-- Google Maps settings -->
+<script>
+  // Regular map
+  function regular_map() {
+    var var_location = new google.maps.LatLng(28.630796, -81.111991);
+
+    var var_mapoptions = {
+      center: var_location,
+      zoom: 8
+    };
+
+    var var_map = new google.maps.Map(document.getElementById("map-container"),
+      var_mapoptions);
+
+    var var_marker = new google.maps.Marker({
+      position: var_location,
+      map: var_map,
+      title: "Chuluota, Florida"
+    });
+  }
+
+  // Initialize maps
+  google.maps.event.addDomListener(window, 'load', regular_map);
+</script>
+
+</body>
 </html>

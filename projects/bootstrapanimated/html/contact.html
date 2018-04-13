@@ -156,7 +156,7 @@
       <!--Grid row-->
 
       <!--Google map-->
-      <div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>
+      <div id="map" class="z-depth-1-half map-container mb-5"></div>
 
     </div>
     <!--Grid column-->
@@ -201,35 +201,24 @@
 <!-- ADDITIONAL JS HERE -->
 <script src="../js/script.js"></script>
 
-
-<!--Google Maps-->
-<script src="https://maps.google.com/maps/api/js"></script>
-
-<!-- Google Maps settings -->
+<!-- Google Maps Scripts -->
 <script>
-  // Regular map
-  function regular_map() {
-    var var_location = new google.maps.LatLng(28.630796, -81.111991);
-
-    var var_mapoptions = {
-      center: var_location,
+  function initMap() {
+    var uluru = { lat: 28.630796, lng: -81.111991 };
+    var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 8,
-      key: AIzaSyB8UkGbt_T0DzpPK0g0VYGyReSQtvrRXJo,
-    };
-
-    var var_map = new google.maps.Map(document.getElementById("map-container"),
-      var_mapoptions);
-
-    var var_marker = new google.maps.Marker({
-      position: var_location,
-      map: var_map,
-      title: "Chuluota, Florida"
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
     });
   }
-
-  // Initialize maps
-  google.maps.event.addDomListener(window, 'load', regular_map);
 </script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8UkGbt_T0DzpPK0g0VYGyReSQtvrRXJo&callback=initMap">
+</script>
+<!-- End Google Maps scripts -->
 
 </body>
 </html>

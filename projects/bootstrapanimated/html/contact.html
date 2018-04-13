@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script defer src="../js/lib/fontawesome-all.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8UkGbt_T0DzpPK0g0VYGyReSQtvrRXJo&callback=initMap"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/animate.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -202,24 +203,6 @@
 <!-- ADDITIONAL JS HERE -->
 <script src="../js/script.js"></script>
 
-<!-- Google Maps Scripts -->
-<script>
-  function initMap() {
-    var uluru = { lat: 28.630796, lng: -81.111991 };
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 8,
-      center: uluru
-    });
-    var marker = new google.maps.Marker({
-      position: uluru,
-      map: map
-    });
-  }
-</script>
-
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8UkGbt_T0DzpPK0g0VYGyReSQtvrRXJo&callback=initMap">
-</script>
-<!-- End Google Maps scripts -->
 
 </body>
 </html>

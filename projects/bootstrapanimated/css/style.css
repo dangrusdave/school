@@ -200,10 +200,11 @@ h3 {
     transform: translate(-50%, -50%) rotate(-15deg);
   }
 }
- .map {
+ .iframe {
         height: 400px;
         width: 100%;
-       }
+        border:0;
+}
 
 .footer {
   background-color: #FD8204;

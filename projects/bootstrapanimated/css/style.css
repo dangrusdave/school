@@ -200,6 +200,10 @@ h3 {
     transform: translate(-50%, -50%) rotate(-15deg);
   }
 }
+ .map {
+        height: 400px;
+        width: 100%;
+       }
 
 .footer {
   background-color: #FD8204;

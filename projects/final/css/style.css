@@ -24,13 +24,6 @@
   font-weight: 100;
 }
 
-.jumbotron-image {
-  width:100;
-  background-image: url("../images/largesized/largesized-8a.jpg");
-  background-repeat: no-repeat, no repeat;
-  background-color:#FD8204;
-}
-
 .site-header {
   background: linear-gradient#FD8204 50px, transparent;
   background-position: center center;
@@ -58,7 +51,9 @@
 
 .site-header .jumbotron {
   min-height: 50vh;
-  background: #FD8204;
+  min-width: 100%;
+  background-image: url("../images/largesized/largesized-8jumbo.png");
+  background-repeat: no-repeat no-repeat;
 }
 .site-header .normal {
   min-height:10vh;
@@ -97,6 +92,12 @@
 .vertical-padding {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+iframe {
+  frameborder: 0px;
+  marginheight:0px;
+  marginwidth:0px;
 }
 
 h3 {

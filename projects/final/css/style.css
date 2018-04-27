@@ -26,8 +26,8 @@
 
 .jumbotron-image {
   width:100;
-  background-image: url("../images/largesized/largesized-8.jpg");
-  background-repeat: no-repeat, repeat;
+  background-image: url("../images/largesized/largesized-8a.jpg");
+  background-repeat: no-repeat, no repeat;
   background-color:#FD8204;
 }
 

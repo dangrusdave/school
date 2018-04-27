@@ -26,6 +26,9 @@
 
 .jumbotron-image {
   width:100;
+  background-image: url("../images/largesized/largesized-8.png");
+  background-repeat: no-repeat, repeat;
+  background-color:#FD8204;
 }
 
 .site-header {
